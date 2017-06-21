@@ -1,5 +1,12 @@
 # PHP Code Challenge
 
+### Installation
+ - Use the provided lxr.dev.conf file to setup a local url for apache
+ - Add the lxr.dev to your host pointing to an ip you can access preferably localhost
+
+### Usage
+ - Use your browser, postman, etc. for your get requests
+
 ### Requirements
 
 Build a basic HTTP API web application using the PHP technologies of your choice. You will be evaluated on your ability to *architect* a miniature application.
