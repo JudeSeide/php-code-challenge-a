@@ -22,13 +22,9 @@ $app->get('geolocation[/{ip_address}]',
     ]
 );
 
-//$app->group(['middleware' => 'geolocation'], function () use ($app) {
-
-    $app->get('weather[/{ip_address}]',
-        [
-            'as' => 'weather',
-            'uses' => 'WeatherController@getForecast'
-        ]
-    );
-
-//});
+$app->get('weather[/{ip_address}]',
+    [
+        'as' => 'weather',
+        'uses' => 'WeatherController@getForecast'
+    ]
+);
